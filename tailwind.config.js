@@ -4,10 +4,9 @@ module.exports = {
   theme: {
     extend: {      
       backgroundImage:{
-        "fondoCarta":"url('images/fondoCarta.jpg')",
-        "fondoCarta2":"url('images/fondoCarta2.jpg')",
-        "fondoCarta3":"url('images/fondoCarta3.jpg')",
-        "fondoMain":"url('images/fondoMain.jpg')",          
+        "fondoCarta":"url('/images/fondoCarta.jpg')",
+        "fondoCarta2":"url('/images/fondoCarta2.jpg')",
+        "fondoCarta3":"url('/images/fondoCarta3.jpg')",                 
 
       },
     }
