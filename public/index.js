@@ -1,4 +1,4 @@
-import * as apiCard from "./public/fetch/fetchData.js"
+import * as apiCard from "/public/fetch/fetchData.js"
 
 let sectionCard=document.getElementById("sectionCard")
 let sectionCard1=document.getElementById("sectionCard1")
