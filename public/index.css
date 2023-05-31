@@ -975,6 +975,30 @@ video {
   background-image: url(images/fondoCarta3.jpg);
 }
 
+.bg-\[url\(\'images\\fondoCarta2\.jpg\'\)\] {
+  background-image: url('images\fondoCarta2.jpg');
+}
+
+.bg-\[url\(\'images\\fondoCarta\.jpg\'\)\] {
+  background-image: url('images\fondoCarta.jpg');
+}
+
+.bg-\[url\(\'images\\fondoCarta\.jpg\.jpg\'\)\] {
+  background-image: url('images\fondoCarta.jpg.jpg');
+}
+
+.bg-\[url\(\"images\/fondoCarta\.jpg\"\)\] {
+  background-image: url("images/fondoCarta.jpg");
+}
+
+.bg-\[url\(\'images\/fondoCarta3\.jpg\'\)\] {
+  background-image: url('images/fondoCarta3.jpg');
+}
+
+.bg-\[url\(\'images\\fondoCarta3\.jpg\'\)\] {
+  background-image: url('images\fondoCarta3.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
