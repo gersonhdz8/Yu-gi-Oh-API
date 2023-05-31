@@ -1,4 +1,4 @@
-import * as apiCard from "/public/fetchData.js"
+import * as apiCard from "./fetchData.js"
 
 let sectionCard=document.getElementById("sectionCard")
 let sectionCard1=document.getElementById("sectionCard1")
@@ -121,7 +121,7 @@ async function getAllCards()
             let sectionCards=`<div id="${idCard}" class="flex justiy-items-center justify-center items-center">
             <div id="${idCard}" class="containerCard">
             <!-- Card -->
-                <div id="${idCard}" class="bg-fondoCarta bg-cover bg-clip-border bg-no-repeat w-44 h-64 rounded-xl  relative grid grid-cols-1 justify-items-center hover:scale-105 transition-all ease-linear hover:cursor-pointer">            
+                <div id="${idCard}" class="bg-[url('/images/fondoCarta.jpg')] bg-cover bg-clip-border bg-no-repeat w-44 h-64 rounded-xl  relative grid grid-cols-1 justify-items-center hover:scale-105 transition-all ease-linear hover:cursor-pointer">            
                     <div id="${idCard}" class="grid items-center justify-center">
                         <img id="${idCard}" src="${imgCard}" class="w-36 h-52">
                     </div>                 
@@ -135,7 +135,7 @@ async function getAllCards()
             let sectionCards=`<div id="${idCard}" class="flex justiy-items-center justify-center items-center">
             <div id="${idCard}" class="containerCard">
             <!-- Card -->
-                <div id="${idCard}" class="bg-fondoCarta bg-cover bg-clip-border bg-no-repeat w-44 h-64 rounded-xl  relative grid grid-cols-1 justify-items-center hover:scale-105 transition-all ease-linear hover:cursor-pointer">            
+                <div id="${idCard}" class="bg-[url('/images/fondoCarta.jpg')] bg-cover bg-clip-border bg-no-repeat w-44 h-64 rounded-xl  relative grid grid-cols-1 justify-items-center hover:scale-105 transition-all ease-linear hover:cursor-pointer">            
                     <div id="${idCard}" class="grid items-center justify-center">
                         <img id="${idCard}" src="${imgCard}" class="w-36 h-52">
                     </div>                 
@@ -149,7 +149,7 @@ async function getAllCards()
             let sectionCards=`<div id="${idCard}" class="flex justiy-items-center justify-center items-center">
             <div id="${idCard}" class="containerCard">
             <!-- Card -->
-                <div id="${idCard}" class="bg-fondoCarta bg-cover bg-clip-border bg-no-repeat w-44 h-64 rounded-xl  relative grid grid-cols-1 justify-items-center hover:scale-105 transition-all ease-linear hover:cursor-pointer">            
+                <div id="${idCard}" class="bg-[url('/images/fondoCarta.jpg')] bg-cover bg-clip-border bg-no-repeat w-44 h-64 rounded-xl  relative grid grid-cols-1 justify-items-center hover:scale-105 transition-all ease-linear hover:cursor-pointer">            
                     <div id="${idCard}" class="grid items-center justify-center">
                         <img id="${idCard}" src="${imgCard}" class="w-36 h-52">
                     </div>                 
@@ -198,7 +198,7 @@ async function searchCards()
             let sectionCard=`<div id="${idCard}" class="flex justiy-items-center justify-center items-center">
             <div id="${idCard}" class="containerCard">
             <!-- Card -->
-                <div id="${idCard}" class="bg-fondoCarta bg-cover bg-clip-border bg-no-repeat w-44 h-64 rounded-xl  relative grid grid-cols-1 justify-items-center hover:scale-105 transition-all ease-linear hover:cursor-pointer">            
+                <div id="${idCard}" class="bg-[url('/images/fondoCarta.jpg')] bg-cover bg-clip-border bg-no-repeat w-44 h-64 rounded-xl  relative grid grid-cols-1 justify-items-center hover:scale-105 transition-all ease-linear hover:cursor-pointer">            
                     <div id="${idCard}" class="grid items-center justify-center">
                         <img id="${idCard}" src="${imgCard}" class="w-36 h-52">
                     </div>                 
@@ -212,7 +212,7 @@ async function searchCards()
             sectionCard2.innerHTML+=`<div id="${idCard}" class="flex justiy-items-center justify-center items-center">
             <div id="${idCard}" class="containerCard">
             <!-- Card -->
-                <div id="${idCard}" class="bg-fondoCarta bg-cover bg-clip-border bg-no-repeat w-44 h-64 rounded-xl  relative grid grid-cols-1 justify-items-center hover:scale-105 transition-all ease-linear hover:cursor-pointer">            
+                <div id="${idCard}" class="bg-[url('/images/fondoCarta.jpg')] bg-cover bg-clip-border bg-no-repeat w-44 h-64 rounded-xl  relative grid grid-cols-1 justify-items-center hover:scale-105 transition-all ease-linear hover:cursor-pointer">            
                     <div id="${idCard}" class="grid items-center justify-center">
                         <img id="${idCard}" src="${imgCard}" class="w-36 h-52">
                     </div>                 
@@ -225,7 +225,7 @@ async function searchCards()
             sectionCard.innerHTML+=`<div id="${idCard}" class="flex justiy-items-center justify-center items-center">
             <div id="${idCard}" class="containerCard">
             <!-- Card -->
-                <div id="${idCard}" class="bg-fondoCarta bg-cover bg-clip-border bg-no-repeat w-44 h-64 rounded-xl  relative grid grid-cols-1 justify-items-center hover:scale-105 transition-all ease-linear hover:cursor-pointer">            
+                <div id="${idCard}" class="bg-[url('/images/fondoCarta.jpg')] bg-cover bg-clip-border bg-no-repeat w-44 h-64 rounded-xl  relative grid grid-cols-1 justify-items-center hover:scale-105 transition-all ease-linear hover:cursor-pointer">            
                     <div id="${idCard}" class="grid items-center justify-center">
                         <img id="${idCard}" src="${imgCard}" class="w-36 h-52">
                     </div>                 

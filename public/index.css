@@ -890,6 +890,34 @@ video {
   background-image: url('/images/fondoCarta3.jpg');
 }
 
+.bg-\[url\(\'\/img\/hero-pattern\.svg\'\)\] {
+  background-image: url('/img/hero-pattern.svg');
+}
+
+.bg-\[url\(\'images\\fondoCarta2\.jpg\'\)\] {
+  background-image: url('images\fondoCarta2.jpg');
+}
+
+.bg-\[url\(\'images\/fondoCarta2\.jpg\'\)\] {
+  background-image: url('images/fondoCarta2.jpg');
+}
+
+.bg-\[url\(\'\/images\/fondoCarta2\.jpg\'\)\] {
+  background-image: url('/images/fondoCarta2.jpg');
+}
+
+.bg-\[url\(\'images\\fondoCarta\.jpg\'\)\] {
+  background-image: url('images\fondoCarta.jpg');
+}
+
+.bg-\[url\(\'images\/fondoCarta\.jpg\'\)\] {
+  background-image: url('images/fondoCarta.jpg');
+}
+
+.bg-\[url\(\'\/images\/fondoCarta\.jpg\'\)\] {
+  background-image: url('/images/fondoCarta.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
